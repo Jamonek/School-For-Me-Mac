@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642137A61C3B28FB009EBB3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642137A51C3B28FB009EBB3F /* AppDelegate.swift */; };
+		642137A81C3B28FB009EBB3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642137A71C3B28FB009EBB3F /* ViewController.swift */; };
+		642137AB1C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 642137A91C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodeld */; };
+		642137AD1C3B28FB009EBB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642137AC1C3B28FB009EBB3F /* Assets.xcassets */; };
+		642137B01C3B28FB009EBB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642137AE1C3B28FB009EBB3F /* Main.storyboard */; };
+		642137BB1C3B28FB009EBB3F /* School_For_Me__OS_X_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642137BA1C3B28FB009EBB3F /* School_For_Me__OS_X_Tests.swift */; };
+		642137C61C3B28FB009EBB3F /* School_For_Me__OS_X_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642137C51C3B28FB009EBB3F /* School_For_Me__OS_X_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		642137B71C3B28FB009EBB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6421379A1C3B28FB009EBB3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642137A11C3B28FB009EBB3F;
+			remoteInfo = "School For Me (OS X)";
+		};
+		642137C21C3B28FB009EBB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6421379A1C3B28FB009EBB3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642137A11C3B28FB009EBB3F;
+			remoteInfo = "School For Me (OS X)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		642137A21C3B28FB009EBB3F /* School For Me (OS X).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School For Me (OS X).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642137A51C3B28FB009EBB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		642137A71C3B28FB009EBB3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		642137AA1C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_For_Me__OS_X_.xcdatamodel; sourceTree = "<group>"; };
+		642137AC1C3B28FB009EBB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		642137AF1C3B28FB009EBB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		642137B11C3B28FB009EBB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642137B61C3B28FB009EBB3F /* School For Me (OS X)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School For Me (OS X)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642137BA1C3B28FB009EBB3F /* School_For_Me__OS_X_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_For_Me__OS_X_Tests.swift; sourceTree = "<group>"; };
+		642137BC1C3B28FB009EBB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642137C11C3B28FB009EBB3F /* School For Me (OS X)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School For Me (OS X)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642137C51C3B28FB009EBB3F /* School_For_Me__OS_X_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_For_Me__OS_X_UITests.swift; sourceTree = "<group>"; };
+		642137C71C3B28FB009EBB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6421379F1C3B28FB009EBB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137B31C3B28FB009EBB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137BE1C3B28FB009EBB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642137991C3B28FB009EBB3F = {
+			isa = PBXGroup;
+			children = (
+				642137A41C3B28FB009EBB3F /* School For Me (OS X) */,
+				642137B91C3B28FB009EBB3F /* School For Me (OS X)Tests */,
+				642137C41C3B28FB009EBB3F /* School For Me (OS X)UITests */,
+				642137A31C3B28FB009EBB3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		642137A31C3B28FB009EBB3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642137A21C3B28FB009EBB3F /* School For Me (OS X).app */,
+				642137B61C3B28FB009EBB3F /* School For Me (OS X)Tests.xctest */,
+				642137C11C3B28FB009EBB3F /* School For Me (OS X)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642137A41C3B28FB009EBB3F /* School For Me (OS X) */ = {
+			isa = PBXGroup;
+			children = (
+				642137A51C3B28FB009EBB3F /* AppDelegate.swift */,
+				642137A71C3B28FB009EBB3F /* ViewController.swift */,
+				642137AC1C3B28FB009EBB3F /* Assets.xcassets */,
+				642137AE1C3B28FB009EBB3F /* Main.storyboard */,
+				642137B11C3B28FB009EBB3F /* Info.plist */,
+				642137A91C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodeld */,
+			);
+			path = "School For Me (OS X)";
+			sourceTree = "<group>";
+		};
+		642137B91C3B28FB009EBB3F /* School For Me (OS X)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				642137BA1C3B28FB009EBB3F /* School_For_Me__OS_X_Tests.swift */,
+				642137BC1C3B28FB009EBB3F /* Info.plist */,
+			);
+			path = "School For Me (OS X)Tests";
+			sourceTree = "<group>";
+		};
+		642137C41C3B28FB009EBB3F /* School For Me (OS X)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				642137C51C3B28FB009EBB3F /* School_For_Me__OS_X_UITests.swift */,
+				642137C71C3B28FB009EBB3F /* Info.plist */,
+			);
+			path = "School For Me (OS X)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		642137A11C3B28FB009EBB3F /* School For Me (OS X) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642137CA1C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)" */;
+			buildPhases = (
+				6421379E1C3B28FB009EBB3F /* Sources */,
+				6421379F1C3B28FB009EBB3F /* Frameworks */,
+				642137A01C3B28FB009EBB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "School For Me (OS X)";
+			productName = "School For Me (OS X)";
+			productReference = 642137A21C3B28FB009EBB3F /* School For Me (OS X).app */;
+			productType = "com.apple.product-type.application";
+		};
+		642137B51C3B28FB009EBB3F /* School For Me (OS X)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642137CD1C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)Tests" */;
+			buildPhases = (
+				642137B21C3B28FB009EBB3F /* Sources */,
+				642137B31C3B28FB009EBB3F /* Frameworks */,
+				642137B41C3B28FB009EBB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642137B81C3B28FB009EBB3F /* PBXTargetDependency */,
+			);
+			name = "School For Me (OS X)Tests";
+			productName = "School For Me (OS X)Tests";
+			productReference = 642137B61C3B28FB009EBB3F /* School For Me (OS X)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		642137C01C3B28FB009EBB3F /* School For Me (OS X)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642137D01C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)UITests" */;
+			buildPhases = (
+				642137BD1C3B28FB009EBB3F /* Sources */,
+				642137BE1C3B28FB009EBB3F /* Frameworks */,
+				642137BF1C3B28FB009EBB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642137C31C3B28FB009EBB3F /* PBXTargetDependency */,
+			);
+			name = "School For Me (OS X)UITests";
+			productName = "School For Me (OS X)UITests";
+			productReference = 642137C11C3B28FB009EBB3F /* School For Me (OS X)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6421379A1C3B28FB009EBB3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jamone Kelly";
+				TargetAttributes = {
+					642137A11C3B28FB009EBB3F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W29D5BE398;
+					};
+					642137B51C3B28FB009EBB3F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 642137A11C3B28FB009EBB3F;
+					};
+					642137C01C3B28FB009EBB3F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 642137A11C3B28FB009EBB3F;
+					};
+				};
+			};
+			buildConfigurationList = 6421379D1C3B28FB009EBB3F /* Build configuration list for PBXProject "School For Me (OS X)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642137991C3B28FB009EBB3F;
+			productRefGroup = 642137A31C3B28FB009EBB3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642137A11C3B28FB009EBB3F /* School For Me (OS X) */,
+				642137B51C3B28FB009EBB3F /* School For Me (OS X)Tests */,
+				642137C01C3B28FB009EBB3F /* School For Me (OS X)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		642137A01C3B28FB009EBB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642137AD1C3B28FB009EBB3F /* Assets.xcassets in Resources */,
+				642137B01C3B28FB009EBB3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137B41C3B28FB009EBB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137BF1C3B28FB009EBB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6421379E1C3B28FB009EBB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642137A81C3B28FB009EBB3F /* ViewController.swift in Sources */,
+				642137A61C3B28FB009EBB3F /* AppDelegate.swift in Sources */,
+				642137AB1C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137B21C3B28FB009EBB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642137BB1C3B28FB009EBB3F /* School_For_Me__OS_X_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642137BD1C3B28FB009EBB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642137C61C3B28FB009EBB3F /* School_For_Me__OS_X_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		642137B81C3B28FB009EBB3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642137A11C3B28FB009EBB3F /* School For Me (OS X) */;
+			targetProxy = 642137B71C3B28FB009EBB3F /* PBXContainerItemProxy */;
+		};
+		642137C31C3B28FB009EBB3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642137A11C3B28FB009EBB3F /* School For Me (OS X) */;
+			targetProxy = 642137C21C3B28FB009EBB3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		642137AE1C3B28FB009EBB3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				642137AF1C3B28FB009EBB3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		642137C81C3B28FB009EBB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		642137C91C3B28FB009EBB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		642137CB1C3B28FB009EBB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		642137CC1C3B28FB009EBB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		642137CE1C3B28FB009EBB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School For Me (OS X).app/Contents/MacOS/School For Me (OS X)";
+			};
+			name = Debug;
+		};
+		642137CF1C3B28FB009EBB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School For Me (OS X).app/Contents/MacOS/School For Me (OS X)";
+			};
+			name = Release;
+		};
+		642137D11C3B28FB009EBB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "School For Me (OS X)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		642137D21C3B28FB009EBB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "School For Me (OS X)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.School-For-Me--OS-X-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "School For Me (OS X)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6421379D1C3B28FB009EBB3F /* Build configuration list for PBXProject "School For Me (OS X)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642137C81C3B28FB009EBB3F /* Debug */,
+				642137C91C3B28FB009EBB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642137CA1C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642137CB1C3B28FB009EBB3F /* Debug */,
+				642137CC1C3B28FB009EBB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		642137CD1C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642137CE1C3B28FB009EBB3F /* Debug */,
+				642137CF1C3B28FB009EBB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		642137D01C3B28FB009EBB3F /* Build configuration list for PBXNativeTarget "School For Me (OS X)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642137D11C3B28FB009EBB3F /* Debug */,
+				642137D21C3B28FB009EBB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		642137A91C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				642137AA1C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodel */,
+			);
+			currentVersion = 642137AA1C3B28FB009EBB3F /* School_For_Me__OS_X_.xcdatamodel */;
+			path = School_For_Me__OS_X_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6421379A1C3B28FB009EBB3F /* Project object */;
+}
